@@ -29,6 +29,8 @@
     
     NSLog(@"====wo shi da shen=======");
     NSLog(@"====大神的宝典========");
+    NSLog(@"大神都是磨练出来的");
+   
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 30;
