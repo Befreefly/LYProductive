@@ -28,6 +28,7 @@
     talbeview.rowHeight = UITableViewAutomaticDimension;
     
     NSLog(@"====wo shi da shen=======");
+    NSLog(@"====大神的宝典========");
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 30;
