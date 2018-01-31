@@ -15,6 +15,7 @@
 		023A3E11200E31EC007E408A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3E10200E31EC007E408A /* main.m */; };
 		023A3E1B200E31EC007E408A /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3E1A200E31EC007E408A /* TestTests.m */; };
 		023A3E26200E31EC007E408A /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3E25200E31EC007E408A /* TestUITests.m */; };
+		023A3E35200E331B007E408A /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3E34200E331B007E408A /* TestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		023A3E21200E31EC007E408A /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		023A3E25200E31EC007E408A /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		023A3E27200E31EC007E408A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023A3E33200E331B007E408A /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		023A3E34200E331B007E408A /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				023A3E02200E31EC007E408A /* AppDelegate.m */,
 				023A3E04200E31EC007E408A /* ViewController.h */,
 				023A3E05200E31EC007E408A /* ViewController.m */,
+				023A3E33200E331B007E408A /* TestCell.h */,
+				023A3E34200E331B007E408A /* TestCell.m */,
 				023A3E07200E31EC007E408A /* Main.storyboard */,
 				023A3E0A200E31EC007E408A /* Assets.xcassets */,
 				023A3E0C200E31EC007E408A /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				023A3E06200E31EC007E408A /* ViewController.m in Sources */,
+				023A3E35200E331B007E408A /* TestCell.m in Sources */,
 				023A3E11200E31EC007E408A /* main.m in Sources */,
 				023A3E03200E31EC007E408A /* AppDelegate.m in Sources */,
 			);
